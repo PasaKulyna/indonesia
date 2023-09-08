@@ -1,8 +1,16 @@
+:root {
+    --title-color :#FFF ;
+--button-color: #FFF;
+--accent-color: #DD2242;
+--text-color : #939393;
+--title-decor-color :#010A20 ;
+}
+
 body {
     font-family: Open Sans;
 }
 .header-title {
-    color: #FFF;
+    color: var(--title-color);
 font-feature-settings: 'clig' off, 'liga' off;
 font-family: Roboto;
 font-size: 23.961px;
@@ -21,7 +29,7 @@ line-height: normal;
 text-transform: uppercase;
 }
 .hero-title {
-    color: #FFF;
+    color: var(--title-color  );
 /* H1 */
 font-family: Roboto;
 font-size: 120px;
@@ -31,7 +39,7 @@ line-height: 130px; /* 108.333% */
 text-transform: uppercase;
 }
 .hero-button {
-    color: rgba(255, 255, 255, 0.80);
+    color: var(--button-color);
     text-align: center;
     font-size: 20px;
     font-style: normal;
@@ -39,7 +47,7 @@ text-transform: uppercase;
     line-height: 150%; /* 30px */
 }
 .hero-list-h2 {
-    color: #DD2242;
+    color: var(--accent-color);
 font-family: Roboto;
 font-size: 16px;
 font-style: normal;
@@ -48,7 +56,7 @@ line-height: normal;
 text-transform: uppercase;
 }
 .hero-list-title {
-    color: #FFF;
+    color: var(--title-color );
 /* H4 */
 font-size: 26.409px;
 font-style: normal;
@@ -56,7 +64,7 @@ font-weight: 700;
 line-height: 41.081px; /* 155.556% */
 }
 .hero-list-text {
-    color: #939393;
+    color: var(--text-color);
 font-feature-settings: 'clig' off, 'liga' off;
 /* Paragraph Light */
 font-size: 18px;
@@ -66,7 +74,7 @@ line-height: 28px; /* 155.556% */
 letter-spacing: 0.5px;
 }
 .walkways-title {
-    color: var(--White, #FFF);
+    color: var(--title-color  );
 font-feature-settings: 'clig' off, 'liga' off;
 /* H3 */
 font-size: 42px;
@@ -75,7 +83,7 @@ font-weight: 700;
 line-height: 50px; /* 119.048% */
 }
 .walkways-text {
-    color: var(--Text-Lighten, #E0E0E0);
+    color: var(--text-color);
 /* Paragraph */
 font-size: 18px;
 font-style: normal;
@@ -84,7 +92,7 @@ line-height: 28px; /* 155.556% */
 letter-spacing: 0.18px;
 }
 .walkways-button {
-    color: var(--neutral-white, #FFF);
+    color: var(--button-color);
 text-align: center;
 /* CTA */
 font-size: 18px;
@@ -93,7 +101,7 @@ font-weight: 700;
 line-height: 150%; /* 27px */
 }
 .Perfect-title {
-    color: var(--neutral-white, #FFF);
+    color: var(--title-color  );
 font-feature-settings: 'clig' off, 'liga' off;
 /* H3 */
 font-size: 42px;
@@ -102,7 +110,7 @@ font-weight: 700;
 line-height: 50px; /* 119.048% */
 }
 .Perfect-text {
-    color: var(--Text-Lighten, #E0E0E0);
+    color: var(--text-color);
 /* Paragraph */
 font-size: 18px;
 font-style: normal;
@@ -111,7 +119,7 @@ line-height: 28px; /* 155.556% */
 letter-spacing: 0.18px;
 }
 .Perfect-button {
-    color: var(--neutral-white, #FFF);
+    color: var(--button-color );
 text-align: center;
 /* CTA */
 font-size: 18px;
@@ -120,7 +128,7 @@ font-weight: 700;
 line-height: 150%; /* 27px */
 }
 .Explore-title {
-    color: var(--Blue---Background, #010A20);
+    color: var(--title-decor-color);
 text-align: center;
 font-size: 50px;
 font-style: normal;
@@ -128,7 +136,7 @@ font-weight: 700;
 line-height: 150%; /* 75px */
 }
 .Numbers-title {
-    color: #FFF;
+    color: var(--title-color  );
 text-align: center;
 font-size: 60px;
 font-style: normal;
@@ -136,7 +144,7 @@ font-weight: 700;
 line-height: 150%; /* 90px */
 }
 .Numbers-text {
-    color: var(--Text-Lighten, #E0E0E0);
+    color: var(--text-color);
 text-align: center;
 font-feature-settings: 'clig' off, 'liga' off;
 /* Paragraph Light */
@@ -147,7 +155,7 @@ line-height: 28px; /* 155.556% */
 letter-spacing: 0.5px;
 }
 .Numbers-list-title {
-    color: #DD2242;
+    color: var(--accent-color);
 text-align: center;
 font-size: 42.137px;
 font-style: normal;
@@ -156,7 +164,7 @@ line-height: 49.16px; /* 116.667% */
 letter-spacing: 0.386px;
 }
 .Numbers-list-text {
-    color: var(--Text-Lighten, #E0E0E0);
+    color: var(--text-color);
 text-align: center;
 font-feature-settings: 'clig' off, 'liga' off;
 /* Paragraph Light */
@@ -167,7 +175,7 @@ line-height: 28px; /* 155.556% */
 letter-spacing: 0.5px;
 }
 .Our-title {
-    color: #000;
+    color: var(--title-decor-color);
 text-align: center;
 font-feature-settings: 'clig' off, 'liga' off;
 /* H3 */
@@ -187,7 +195,7 @@ font-weight: 700;
 line-height: 50px; /* 119.048% */
 }
 .Our-button {
-    color: var(--neutral-white, #FFF);
+    color: var(--button-color );
 text-align: center;
 /* CTA */
 font-size: 18px;
@@ -196,7 +204,7 @@ font-weight: 700;
 line-height: 150%; /* 27px */
 }
 .Live-title {
-    color: var(--colors-white, #FFF);
+    color: var(--title-color  );
 text-align: center;
 font-feature-settings: 'clig' off, 'liga' off;
 /* H3 */
@@ -206,7 +214,7 @@ font-weight: 700;
 line-height: 50px; /* 119.048% */
 }
 .Live-list-title {
-    color: var(--colors-white, #FFF);
+    color: var(--title-color  );
 /* CTA */
 font-size: 18px;
 font-style: normal;
@@ -214,7 +222,7 @@ font-weight: 700;
 line-height: 150%; /* 27px */
 }
 .Live-list-text {
-    color: var(--colors-white, #FFF);
+    color: var(--text-color);
 font-feature-settings: 'clig' off, 'liga' off;
 /* Paragraph Light */
 font-size: 18px;
@@ -224,7 +232,7 @@ line-height: 28px; /* 155.556% */
 letter-spacing: 0.5px;
 }
 .Getting-title {
-    color: #010A20;
+    color: var(--title-decor-color);
 /* H2 */
 font-size: 60px;
 font-style: normal;
@@ -232,7 +240,7 @@ font-weight: 700;
 line-height: 150%; /* 90px */
 }
 .Getting-list-title {
-    color: var(--Blue---Background, #010A20);
+    color: var(--title-decor-color);
 /* H4 */
 font-size: 26.409px;
 font-style: normal;
@@ -247,7 +255,7 @@ font-weight: 400;
 line-height: 38.146px; /* 162.5% */
 }
 .footetr-title {
-    color: #FFF;
+    color: var(--title-color  );
 font-feature-settings: 'clig' off, 'liga' off;
 font-family: Roboto;
 font-size: 23.961px;
@@ -258,7 +266,7 @@ letter-spacing: 0.315px;
 text-transform: uppercase;
 }
 .footer-span {
-    color: #DD2242;
+    color: var(--accent-color);
 font-feature-settings: 'clig' off, 'liga' off;
 font-family: Roboto;
 font-size: 23.961px;
@@ -278,7 +286,7 @@ line-height: 28px; /* 155.556% */
 letter-spacing: 0.5px;
 }
 .footer-copyright {
-    color: var(--main-white, #FFF);
+    color: var(--title-color  );
 font-feature-settings: 'clig' off, 'liga' off;
 font-size: 18px;
 font-style: normal;
