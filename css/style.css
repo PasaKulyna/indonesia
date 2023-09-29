@@ -111,37 +111,46 @@ justify-content: left;
   font-weight: 700;
   line-height: 150%;
 }
-.walkways-div {
-  display: flex;
+.walkways-box {
+ 
+  outline: solid yellow;
 }
 .walkways-list {
   display: flex;
-align-items: center;
-
+  flex-wrap: wrap;
+  align-items: center;
 }
+
+.walkways-item {
+  display: flex;
+  justify-content: space-between;
+  outline: solid blue;
+  gap: 125px;
+}
+.walkways-item:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
 .Perfect-title {
   color: var(--title-color);
   font-feature-settings: "clig" off, "liga" off;
-  /* H3 */
   font-size: 42px;
   font-weight: 700;
-  line-height: 50px; /* 119.048% */
+  line-height: 50px;
 }
 .Perfect-text {
   color: var(--text-color);
-  /* Paragraph */
   font-size: 18px;
   font-weight: 400;
-  line-height: 28px; /* 155.556% */
+  line-height: 28px;
   letter-spacing: 0.18px;
 }
 .Perfect-button {
   color: var(--button-color);
   text-align: center;
-  /* CTA */
   font-size: 18px;
   font-weight: 700;
-  line-height: 150%; /* 27px */
+  line-height: 150%;
 }
 .Explore-title {
   color: var(--title-decor-color);
