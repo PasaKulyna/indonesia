@@ -266,9 +266,21 @@ gap: 100px
   line-height: 50px;
   width: 1056px;
   margin-bottom: 67px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .Live-list {
 display: flex;
+
+}
+.Live-item {
+  display: flex;
+
+}
+.Live-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .Live-list-title {
   color: var(--title-color);
